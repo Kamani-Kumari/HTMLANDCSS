@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Bar with Image Input</title>
+  <style>
+    /* Basic styling for the navigation bar */
+    .navbar {
+      display: flex;
+      align-items: center;
+      background-color: #333;
+      padding: 10px;
+    }
+    
+    .navbar a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .navbar a:hover {
+      background-color: #575757;
+    }
+
+    /* Styling for the image input */
+    .navbar input[type="image"] {
+      height: 40px;
+      width: 40px;
+      margin-left: auto; /* Pushes the image to the right end */
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+
+    <!-- Image input button in the nav bar -->
+    <form action="/search" method="get">
+      <input type="image" src="arrow-png-6 (1).png" alt="Search" name="search">
+    </form>
+  </div>
+
+</body>
+</html>

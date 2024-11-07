@@ -1,0 +1,109 @@
+body{
+  background-color:black;
+  
+}
+.container{
+  margin: 40px;
+  background-color: rgb(17, 17, 46);
+ 
+}
+.whole-part{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 40px;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 300px;
+}
+.nav a{
+  justify-content: space-evenly;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+.nav .Contact{
+  color: rgb(227, 70, 227);
+}
+.main-heading{
+  color: rgb(238, 69, 238);
+  width: 500px;
+  margin-left: 120px;
+  transform: scale(1.5, 1); 
+  display: inline-block;
+}
+.second-heading{
+  color: white;
+  font-size: 10px;
+  word-spacing: 15px;
+  font-size: 15px;
+}
+.Introduction input{
+   background-color: rgb(58, 58, 184);
+   width: 200px;
+   height: 30px;
+   border-radius: 10px;
+   text-decoration: none;
+   border: none;
+   padding: 10px;
+   margin-top: 10px;
+}
+.left-container{
+  margin-left: 100px;
+}
+.space input{
+  border: 1px;
+  background-color: white;
+  margin-top: 4px;
+  width: 450px;
+  height: 350px;
+}
+.submit input{
+  margin-top: 6px;
+  color: white;
+  background-color: rgb(182, 58, 182);
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+
+}
+.right-contaier{
+    margin-right: 100px;
+    column-gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.address {
+  font-size: 10px;
+  color: rgb(246, 245, 244);
+  padding-top: 20px;
+  
+
+}
+.contact-information{
+  color:  rgb(238, 69, 238);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.follow{
+  color:  rgb(182, 58, 182);
+  padding-top: 20px;
+  
+}
+.follow img{
+  width: 20px;
+  height: 20px;
+  padding-left: 10px;
+  text-decoration: no;
+
+}
+#Youtube{
+  border-radius: px;
+}

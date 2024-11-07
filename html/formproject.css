@@ -1,0 +1,20 @@
+h1{
+  text-align: center;
+  text-decoration:underline;
+}
+#backfroundOfForm{
+   background-color: aqua;
+   /* text-align: center; */
+    flex-wrap: wrap;
+} 
+label{
+    font-size: 24px;
+    /* margin-right: 30px; */
+  
+}
+input{
+   height: 30px;
+}
+#aaa{
+   background-color: rgb(43, 70, 226);
+}

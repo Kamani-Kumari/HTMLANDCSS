@@ -1,0 +1,43 @@
+body{
+  background-color: tomato;
+  background-repeat: repeat-y
+}
+
+h1{
+ font-size: 90px;
+  color: rgb(240, 242, 238);
+}
+p{
+  color: #f3f5f1;
+  font-size: 40px;
+}
+#section{
+  border: solid 2px;
+  border-style: solide;
+  color: tomato;
+  background-color: white;
+}
+a{
+  color: tomato;
+  border: 2px solid black; 
+  padding: 5px;
+  text-decoration: none;
+  width: 20px;
+border-radius: 80px;
+margin: px;
+border-color: tomato;
+background-color: tomato;
+color: white;
+}
+p{
+  color: black;
+   font-size: 20px;
+}
+#SideBar{
+     color: rgba(30, 9, 101, 0.371);
+     border: solid 2px;
+     padding: 5px;
+     border-color: none;
+     background-color: rgba(138, 133, 129, 0.194);
+
+}
